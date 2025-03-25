@@ -5,7 +5,8 @@ on:
     branches:
       - main
       - test
-      - hello # Chạy khi có commit vào nhánh main
+      - hello
+      - test2# Chạy khi có commit vào nhánh main
   workflow_dispatch:  # Cho phép chạy thủ công
 
 jobs:
